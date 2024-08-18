@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import SearchBar from "./components/SearchBar/SearchBar";
-import { fetchImages } from "./helpers/validationSchemas";
+import { fetchImages } from "./services/api";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import Loader from "./components/Loader/Loader";
 import ErrorMessage from "./components/ErrorMessage/ErrorMessage";
